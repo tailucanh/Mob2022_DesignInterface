@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/custom_actionbar.xml" value="0.2155" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/custom_background_dialog.xml" value="0.17" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/custom_buton.xml" value="0.17" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/custom_button1.xml" value="0.2155" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/custom_mg.xml" value="0.2155" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/ic_baseline_replay_24.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/font/annie_use_your_telescope.xml" value="0.2796875" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/actionbar.xml" value="0.2911458333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/actionbar2.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/actionbar3.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_first.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_five.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_four.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/activity_third.xml" value="0.2" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_dauhang.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_finish.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_kiemtra.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_kiemtrafalse.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_kiemtratrue.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/layout/dialog_sad.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/menu/custom_actionbar.xml" value="0.2911458333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/menu/menu_actionbar.xml" value="0.2911458333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab12_02/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1195" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

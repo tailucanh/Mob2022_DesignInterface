@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_textView">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/colorTextView</item>
+        <item name="android:background">@color/colorBackgroundTextView</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/rubik_moonrocks</item>
+    </style>
+    <style name="style_textView2">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/colorTextView2</item>
+        <item name="android:background">@color/colorBackgroundTextView2</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/baloo</item>
+    </style>
+</resources>

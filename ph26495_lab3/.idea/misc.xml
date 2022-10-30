@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/drawable-v24/custom_tab_layout.xml" value="0.2545" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/drawable/custom_btn_6.xml" value="0.2805" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/activity_main.xml" value="0.2842430484037075" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/dialog_add.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/dialog_edit_user.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/fragment_gird_layout.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/fragment_girl_layout.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/fragment_linear_layout.xml" value="0.33" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/layout_one_item_gird.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/layout_one_item_girl.xml" value="0.3489583333333333" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_lab3/app/src/main/res/layout/layout_one_item_linear.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

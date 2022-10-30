@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="8dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_background_dialog_add">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/belgrano"
+            android:paddingLeft="12dp"
+            android:text="REGISER"
+            android:textColor="#0B786E"
+            android:gravity="center"
+            android:shadowColor="#92E7EC"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:layout_marginBottom="30dp"
+            android:shadowRadius="5"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#01848A"
+            app:hintAnimationEnabled="true"
+            app:hintTextColor="#16696E"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_ten"
+                style="@style/text_input_layout"
+                android:fontFamily="@font/alata"
+                android:hint="Họ tên" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#01848A"
+            app:hintAnimationEnabled="true"
+            app:hintTextColor="#16696E"
+            android:layout_marginTop="8dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_email"
+                style="@style/text_input_layout"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="#01848A"
+                app:hintAnimationEnabled="true"
+                app:hintTextColor="#16696E"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_ngay_sinh"
+                    style="@style/text_input_layout"
+                    android:hint="Chọn ngày sinh"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/datetime_ngaysinh"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/style_button_text_input"
+            android:text="Regiser"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

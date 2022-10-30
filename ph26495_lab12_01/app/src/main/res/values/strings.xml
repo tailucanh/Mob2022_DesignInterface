@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ph26495_lab12_01</string>
+    <string name="title">Đăng kí</string>
+    <string name="contentTitle">Nhanh chóng và dễ dàng</string>
+    <string name="hintSurname">Họ</string>
+    <string name="hintName">Tên</string>
+    <string name="hintPhoneOrEmail">Số điện thoại hoặc email</string>
+    <string name="hintPass">Mật khẩu mới</string>
+    <string name="textButton">Đăng kí</string>
+
+
+
+
+</resources>

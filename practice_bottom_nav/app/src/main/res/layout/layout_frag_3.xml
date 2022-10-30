@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    >
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 3"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_gravity="top|center"/>
+    <Button
+        android:id="@+id/btn_frag3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Click 1"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="#D39797"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+
+</LinearLayout>

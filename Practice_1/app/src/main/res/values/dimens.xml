@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingAll">20dp</dimen>
+    <dimen name="paddingEditText">20dp</dimen>
+    <dimen name="paddingButton">5dp</dimen>
+    <dimen name="paddingEditKq">10dp</dimen>
+    <dimen name="paddingLayoutItem">10dp</dimen>
+    <dimen name="paddingTextViewItem">12dp</dimen>
+    <dimen name="paddingBoxButton">10dp</dimen>
+
+
+    <dimen name="marginEditKq">10dp</dimen>
+    <dimen name="marginLayoutItem">20dp</dimen>
+    <dimen name="marginRightButtons">20dp</dimen>
+    <dimen name="marginBoxButton">10dp</dimen>
+
+
+    <dimen name="TextSizeTitle">45dp</dimen>
+    <dimen name="TextSizeEditText">27dp</dimen>
+    <dimen name="TextSizeTextView">27dp</dimen>
+    <dimen name="TextSizeButton">17dp</dimen>
+</resources>

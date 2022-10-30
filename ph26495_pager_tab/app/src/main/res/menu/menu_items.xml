@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trang_chu"
+        android:title="Trang chủ"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_thu"
+        android:icon="@drawable/ic_input"
+        android:title="Thu"/>
+    <item
+        android:id="@+id/nav_chi"
+        android:icon="@drawable/ic_money"
+        android:title="Chi"/>
+</menu>

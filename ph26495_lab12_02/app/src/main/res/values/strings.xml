@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test IQ</string>
+    <string name="textContent"> &lt;u>&lt;font color="#FA0000">Nhảy số nhanh lên !!!&lt;font>&lt;u></string>
+
+    <string name="conten1">\" If debugging is the process of removing bugs in software, then code is the process that causes bugs.\"</string>
+    <string name="conten2">\" I can accept failure, everyone fails at something. But I can’t accept not trying. \"</string>
+    <string name="conten3">\" Genius is one percent inspiration and ninety-nine percent perspiration. \"</string>
+    <string name="conten4">\" Nothing is so fatiguing as the eternal hanging on of an uncompleted task. \"</string>
+    <string name="conten5">\" The only person you should try to be better than is the person you were yesterday. \"</string>
+
+    <string name="titleGoiY"><font color='yellow'>Your suggestion..</font></string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="@drawable/custom_background_dialog_add"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="40dp"
+    android:layout_gravity="center">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#044942"
+            app:hintAnimationEnabled="true"
+            app:hintTextColor="#0A3A36"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_ten_loai_thu"
+                style="@style/text_input_edit_text"
+                android:hint="Nhập loại thu"
+             />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/style_button_text_input"
+        android:text="Save"
+         />
+
+
+</LinearLayout>

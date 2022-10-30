@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myItems">
+        <item name="android:fontFamily">@font/edu_sa</item>
+        <item name="android:textSize">@dimen/texts_size</item>
+    </style>
+
+
+    <style name="youItems">
+        <item name="android:fontFamily">@font/indie_flower</item>
+        <item name="android:textSize">@dimen/texts_size</item>
+    </style>
+
+    <style name="image_status">
+      <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="textView_MyBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:fontFamily">@font/edu_sa</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="textView_MyBackgroundAutoHeight">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:fontFamily">@font/edu_sa</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="img_mess">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+
+</resources>

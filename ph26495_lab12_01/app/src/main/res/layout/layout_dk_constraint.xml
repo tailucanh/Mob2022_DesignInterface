@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/paddingActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopTitle"
+        android:fontFamily="@font/belgrano"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:text="@string/title"
+        android:textColor="@color/colorTitle2"
+        android:textSize="@dimen/textSizeTitle"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:text="@string/contentTitle"
+        android:textColor="@color/colorContent2"
+        android:textSize="@dimen/textSizeContent"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/ed_surname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext2"
+        android:hint="@string/hintSurname"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:inputType="text"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint2"
+        android:textSize="@dimen/textSizeEditText"
+
+        app:layout_constraintWidth_percent=".49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext2"
+        android:hint="@string/hintName"
+        android:inputType="text"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint2"
+        android:textSize="@dimen/textSizeEditText"
+
+        app:layout_constraintWidth_percent=".49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@+id/ed_surname"
+        app:layout_constraintTop_toBottomOf="@+id/content" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext2"
+        android:hint="@string/hintPhoneOrEmail"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint2"
+
+
+        android:textSize="@dimen/textSizeEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_surname" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext2"
+        android:hint="@string/hintPass"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorHint2"
+        android:textSize="@dimen/textSizeEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPhone" />
+
+    <Button
+        android:layout_width="@dimen/widthButton"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopButton"
+        android:background="@drawable/custom_button2"
+        android:fontFamily="@font/acme"
+        android:text="@string/textButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSizeButton"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_pass" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

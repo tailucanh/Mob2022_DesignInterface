@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_tab_layout" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+    <style name="style_input_layout_dialog_add">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/color_hint_input_layout</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="hintTextColor">@color/color_hint_text</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorTextColor">@color/color_err_dialog</item>
+    </style>
+
+    <style name="text_input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+</resources>

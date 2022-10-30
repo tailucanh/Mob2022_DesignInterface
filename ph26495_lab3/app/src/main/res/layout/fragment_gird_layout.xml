@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentGirdLayout"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center|top">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubik_moonrocks"
+        android:gravity="center"
+        android:text=" User list "
+        android:textColor="#74B8EF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/plus" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyle_view_gird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="15dp"
+        android:background="#B5D9F6"
+        android:elevation="10dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2" />
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable-v24/custom_background_dialog_add.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable-v24/custom_buton_dialog.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable-v24/custom_tool_bar.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable-v24/ic_list.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable/ic_home.xml" value="0.1385" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable/ic_input.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/drawable/ic_money.xml" value="0.1775" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/font/alata.xml" value="0.2869791666666667" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/activity_chi.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/activity_thu.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/collections_frag_chi.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/collections_frag_thu.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/dialog_add_khoan_thu.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/fragment_frag_khoan_chi.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/fragment_frag_khoan_thu.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/fragment_frag_loai_chi.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/layout/fragment_frag_loai_thu.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android Studio/MOB2022_ThietKeGiaoDien/ph26495_pager_tab/app/src/main/res/menu/menu_items.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

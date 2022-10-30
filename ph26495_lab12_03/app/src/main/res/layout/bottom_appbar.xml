@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#242526"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="6dp"
+
+    >
+    <ImageView
+        android:id="@+id/allSettings"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginRight="15dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/more"
+       />
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_marginRight="17dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/camera"
+        android:layout_gravity="center"
+        />
+    
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        android:src="@drawable/image"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+       
+        />
+    <ImageView
+        android:id="@+id/microphone"
+        android:layout_width="26dp"
+        android:layout_height="27dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/mic"
+        android:layout_gravity="center"
+       />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:hint="Aa"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:textSize="15dp"
+        android:drawableRight="@drawable/icons"
+        android:drawablePadding="10dp"
+        android:textColorHint="#756D6D"
+        android:textColor="@color/white"
+        android:paddingVertical="3dp"
+        android:background="@drawable/custom_edit_text"/>
+    <ImageView
+        android:id="@+id/whale"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/whale"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</LinearLayout>

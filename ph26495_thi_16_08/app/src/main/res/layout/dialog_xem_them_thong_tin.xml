@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background_dialog"
+    android:padding="10dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingVertical="5dp"
+            android:text="Thông tin chi tiết"
+            android:textColor="#555555"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Nội dung: "
+            android:textColor="#CF0F36"
+            android:textStyle="bold"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tv_nd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:layout_marginVertical="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Thời gian: "
+            android:textStyle="bold"
+            android:textColor="#CF0F36"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="tg"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texts_size">20dp</dimen>
+    <dimen name="padding_horizontal">10dp</dimen>
+    <dimen name="padding_vertical">10dp</dimen>
+</resources>

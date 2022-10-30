@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lab 2 Phần 2</string>
+
+    <string name="letter1">Hello! How are you ?</string>
+    <string name="letter2">I\'m fine! What are you doing ?</string>
+    <string name="letter3">I\'m preparing for FPT Education\'s 2022 Hackathon.</string>
+    <string name="letter4">Is this right?</string>
+    <string name="letter5">Oh. Really !</string>
+    <string name="letter6">Are you also in this program?</string>
+    <string name="letter7">May I ask you a few questions?</string>
+    <string name="letter8">Okay !</string>
+    <string name="letter9">Let\'s start !</string>
+    <string name="letter10">What does P2P stand for?</string>
+    <string name="letter11">A. Password to Password</string>
+    <string name="letter12">B. Peer to Peer</string>
+    <string name="letter13">C. Product to Product</string>
+    <string name="letter14">D. Private Key to Public Key</string>
+
+    <string name="letter16">What is your answer?</string>
+    <string name="letter17">OH...! This question is so familiar that I can immediately answer it as a B.</string>
+    <string name="letter18">Then let\'s raise the difficulty a little bit!</string>
+    <string name="letter19">What is the name of the first academic paper that describes bitcoin commonly referred to as?</string>
+    <string name="letter20">A. The origins of money</string>
+    <string name="letter21">B. The Bitcoin Whitepaper</string>
+    <string name="letter22">C. The great unrevealing</string>
+
+    <string name="letter23">Hmm...I need some time to think.</string>
+    <string name="letter24">I\'m not sure about the title of the article but I know it was written by Mr. Satoshi Nakamoto - Japan.</string>
+    <string name="letter25">My final answer is answer A.</string>
+    <string name="letter26">Are you sure ?</string>
+    <string name="letter27">Yes, I am sure !</string>
+    <string name="letter28">Oh no, you got the answer wrong. The correct answer is B.</string>
+    <string name="letter29">No problem, it\'s a new knowledge we need to learn and absorb.</string>
+    <string name="letter30">Thank you for chatting with me! See you at the Hackathon!</string>
+    <string name="letter31">Bye! Have a nice day!</string>
+    <string name="letter32">See you again!</string>
+
+
+
+</resources>

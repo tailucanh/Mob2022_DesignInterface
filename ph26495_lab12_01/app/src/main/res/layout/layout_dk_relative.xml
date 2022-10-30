@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/paddingActivity"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopTitle"
+        android:fontFamily="@font/belgrano"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:text="@string/title"
+        android:textColor="@color/colorTitle3"
+        android:textSize="@dimen/textSizeTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="@font/akaya_telivigala"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:text="@string/contentTitle"
+        android:textColor="@color/colorContent3"
+        android:textSize="@dimen/textSizeContent"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ed_surname"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_alignLeft="@+id/content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:layout_marginRight="@dimen/marginEditText"
+        android:layout_toLeftOf="@+id/ed_name"
+        android:background="@drawable/custom_edittext3"
+        android:hint="@string/hintSurname"
+        android:inputType="text"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint3"
+        android:textSize="@dimen/textSizeEditText" />
+
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_alignRight="@id/content"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext3"
+        android:hint="@string/hintName"
+        android:inputType="text"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint3"
+        android:textSize="@dimen/textSizeEditText" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_surname"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext3"
+        android:hint="@string/hintPhoneOrEmail"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint3"
+        android:textSize="@dimen/textSizeEditText" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPhone"
+        android:layout_marginTop="@dimen/marginBox"
+        android:background="@drawable/custom_edittext3"
+        android:hint="@string/hintPass"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/paddingLeftEditText"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingRight="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/paddingEditText"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorHint3"
+        android:textSize="@dimen/textSizeEditText" />
+
+    <Button
+        android:layout_width="@dimen/widthButton"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_pass"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/marginTopButton"
+        android:background="@drawable/custom_button3"
+        android:fontFamily="@font/acme"
+        android:text="@string/textButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSizeButton"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/paddingActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/belgrano"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:layout_marginTop="@dimen/marginTopTitle"
+        android:text="@string/title"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/textSizeTitle"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/contentTitle"
+        android:paddingLeft="@dimen/paddingTitle"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/textSizeContent"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/paddingActivity"
+        android:layout_marginTop="@dimen/marginBox"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:hint="@string/hintSurname"
+            android:textSize="@dimen/textSizeEditText"
+            android:layout_marginRight="@dimen/marginEditText"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorHint"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="@dimen/paddingLeftEditText"
+            android:paddingTop="@dimen/paddingEditText"
+            android:paddingBottom="@dimen/paddingEditText"
+            android:paddingRight="@dimen/paddingEditText"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/hintName"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/textSizeEditText"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="@dimen/paddingLeftEditText"
+            android:paddingTop="@dimen/paddingEditText"
+            android:paddingBottom="@dimen/paddingEditText"
+            android:paddingRight="@dimen/paddingEditText"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/paddingActivity"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hintPhoneOrEmail"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeEditText"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="@dimen/marginTopEdText"
+            android:paddingLeft="@dimen/paddingLeftEditText"
+            android:paddingTop="@dimen/paddingEditText"
+            android:paddingBottom="@dimen/paddingEditText"
+            android:paddingRight="@dimen/paddingEditText"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hintPass"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/textSizeEditText"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/marginTopEdText"
+            android:background="@drawable/custom_edittext"
+            android:paddingLeft="@dimen/paddingLeftEditText"
+            android:paddingTop="@dimen/paddingEditText"
+            android:paddingBottom="@dimen/paddingEditText"
+            android:paddingRight="@dimen/paddingEditText"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/widthButton"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="@dimen/marginTopButton"
+        android:fontFamily="@font/acme"
+        android:text="@string/textButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSizeButton"
+
+        />
+
+
+
+</LinearLayout>
